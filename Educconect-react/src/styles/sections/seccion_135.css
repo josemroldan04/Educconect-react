@@ -1,0 +1,222 @@
+.seccion-135 .telefono {
+  width: 380px;
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.25);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-135 .encabezado {
+  min-height: 85px;
+    flex-shrink: 0;
+
+    background: #dcecff;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    padding: 0 20px;
+}
+
+.seccion-135 .encabezado h1 {
+  width: 100%;
+
+    text-align: center;
+
+    color: #202d3d;
+
+    font-size: 22px;
+}
+
+.seccion-135 .boton-volver {
+  position: absolute;
+
+    left: 18px;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    background: #fff;
+
+    color: #202d3d;
+
+    border-radius: 50%;
+
+    font-size: 28px;
+
+    box-shadow:
+        0 3px 8px rgba(0,0,0,.15);
+}
+
+.seccion-135 .contenido {
+  flex: 1;
+
+    min-height: 0;
+
+    overflow-y: auto;
+
+    padding: 25px;
+}
+
+.seccion-135 .icono-principal {
+  width: 75px;
+    height: 75px;
+
+    margin: 0 auto 15px;
+
+    border-radius: 20px;
+
+    background: #e8f2ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 35px;
+}
+
+.seccion-135 .contenido h2 {
+  text-align: center;
+
+    color: #202d3d;
+
+    font-size: 23px;
+
+    margin-bottom: 8px;
+}
+
+.seccion-135 .descripcion {
+  text-align: center;
+
+    color: #687789;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    margin-bottom: 20px;
+}
+
+.seccion-135 label {
+  display: block;
+
+    color: #202d3d;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-top: 16px;
+
+    margin-bottom: 7px;
+}
+
+.seccion-135 input, .seccion-135 select, .seccion-135 textarea {
+  width: 100%;
+
+    border: 1px solid #ccd6e0;
+
+    border-radius: 12px;
+
+    padding: 12px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+
+    background: #fff;
+
+    outline: none;
+}
+
+.seccion-135 input:focus, .seccion-135 select:focus, .seccion-135 textarea:focus {
+  border-color: #3b78b8;
+}
+
+.seccion-135 textarea {
+  height: 90px;
+
+    resize: none;
+
+    line-height: 1.4;
+}
+
+.seccion-135 .boton-agregar {
+  width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #3b78b8;
+
+    color: #fff;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+}
+
+.seccion-135 .boton-agregar:hover {
+  opacity: .9;
+}
+
+.seccion-135 .mensaje {
+  text-align: center;
+
+    font-size: 13px;
+
+    margin-top: 15px;
+
+    min-height: 18px;
+}
+
+.seccion-135 .error {
+  color: #c0392b;
+}
+
+.seccion-135 .correcto {
+  color: #27844a;
+}
+
+@media(max-width:450px) {
+.seccion-135 .telefono {
+  width: 100%;
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+
+}

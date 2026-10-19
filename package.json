@@ -1,0 +1,14 @@
+{
+  "name": "educconect",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Migración completa de EduConnect a React con Vite",
+  "scripts": {
+    "dev": "npm --prefix Educconect-react run dev",
+    "build": "npm --prefix Educconect-react run build",
+    "preview": "npm --prefix Educconect-react run preview",
+    "lint": "npm --prefix Educconect-react run lint",
+    "test": "node scratch/verify_all.js"
+  }
+}

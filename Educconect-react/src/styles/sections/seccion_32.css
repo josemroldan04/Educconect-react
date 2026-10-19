@@ -1,0 +1,139 @@
+.seccion-32 .telefono {
+  width:390px;
+    height:780px;
+    background:#fff;
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.seccion-32 .header {
+  height:100px;
+    background:#dcecf8;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px;
+}
+
+.seccion-32 .header h1 {
+  font-size:25px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.seccion-32 .boton {
+  width:55px;
+    height:55px;
+
+    background:#59c8ff;
+    color:#0b3475;
+
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+    font-size:28px;
+
+    transition:.3s;
+}
+
+.seccion-32 .boton:hover {
+  background:#2ea8ff;
+    transform:scale(1.05);
+}
+
+.seccion-32 .contenido {
+  padding:25px;
+    text-align:center;
+}
+
+.seccion-32 .icono {
+  width:130px;
+    height:130px;
+
+    margin:0 auto 15px;
+
+    background:#bfeeff;
+
+    border:3px solid #59c8ff;
+    border-radius:15px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:65px;
+    color:#4b79c7;
+}
+
+.seccion-32 .contenido h2 {
+  font-size:32px;
+    margin-bottom:20px;
+}
+
+.seccion-32 form {
+  display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.seccion-32 input, .seccion-32 textarea {
+  width:100%;
+
+    padding:15px;
+
+    border:2px solid #ccc;
+    border-radius:10px;
+
+    font-size:16px;
+    outline:none;
+}
+
+.seccion-32 input:focus, .seccion-32 textarea:focus {
+  border-color:#59c8ff;
+}
+
+.seccion-32 textarea {
+  height:110px;
+    resize:none;
+}
+
+.seccion-32 button {
+  width:100%;
+
+    padding:16px;
+
+    background:#59c8ff;
+    color:white;
+
+    border:none;
+    border-radius:10px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.seccion-32 button:hover {
+  background:#2ea8ff;
+    transform:scale(1.02);
+}
+
+@media(max-width:430px) {
+.seccion-32 .telefono {
+  width:100%;
+        height:100vh;
+        border-radius:0;
+}
+
+
+}

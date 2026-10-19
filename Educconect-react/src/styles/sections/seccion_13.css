@@ -1,0 +1,317 @@
+.seccion-13 .telefono {
+  width: 380px;
+
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(
+            0,
+            0,
+            0,
+            0.25
+        );
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.seccion-13 .header {
+  width: 100%;
+
+    height: 85px;
+
+    background: #dcecff;
+
+    padding:
+        18px 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.seccion-13 .header h1 {
+  flex: 1;
+
+    text-align: center;
+
+    font-size: 26px;
+
+    color: #202d3d;
+
+    font-weight: bold;
+
+    padding: 0 8px;
+}
+
+.seccion-13 .btn-header {
+  width: 42px;
+
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #55b8ff;
+
+    color: #0b3475;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    transition: 0.2s;
+}
+
+.seccion-13 .btn-header:hover {
+  background: #2196f3;
+
+    color: white;
+
+    transform:
+        scale(1.05);
+}
+
+.seccion-13 .btn-header:active {
+  transform:
+        scale(0.95);
+}
+
+.seccion-13 .contenido {
+  flex: 1;
+
+    padding:
+        25px 20px;
+
+    overflow-y: auto;
+}
+
+.seccion-13 .contenido::-webkit-scrollbar {
+  width: 0;
+}
+
+.seccion-13 .contenido > h2 {
+  font-size: 30px;
+
+    color: #202d3d;
+
+    margin-bottom: 18px;
+}
+
+.seccion-13 .promedio {
+  width: 100%;
+
+    background: #bfeeff;
+
+    border:
+        2px solid #59c8ff;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.seccion-13 .promedio p {
+  font-size: 20px;
+
+    font-weight: bold;
+
+    color: #202d3d;
+}
+
+.seccion-13 .promedio span {
+  width: 60px;
+
+    height: 60px;
+
+    background: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #2196f3;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+.seccion-13 .lista {
+  display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.seccion-13 .calificacion {
+  min-height: 70px;
+
+    background: white;
+
+    border:
+        2px solid #ddd;
+
+    border-radius: 10px;
+
+    padding:
+        10px 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    box-shadow:
+        0 2px 5px
+        rgba(
+            0,
+            0,
+            0,
+            0.05
+        );
+}
+
+.seccion-13 .informacion {
+  flex: 1;
+}
+
+.seccion-13 .informacion h3 {
+  font-size: 17px;
+
+    color: #202d3d;
+
+    margin-bottom: 5px;
+}
+
+.seccion-13 .informacion p {
+  font-size: 14px;
+
+    color: #777;
+}
+
+.seccion-13 .nota {
+  width: 55px;
+
+    height: 55px;
+
+    border-radius: 10px;
+
+    background: #bfeeff;
+
+    border:
+        2px solid #59c8ff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #176bb1;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+.seccion-13 .pendiente {
+  width: 55px;
+
+    height: 55px;
+
+    border-radius: 10px;
+
+    background: #eeeeee;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #888;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+.seccion-13 .mensaje {
+  margin-top: 20px;
+
+    padding: 12px;
+
+    background: #eef7ff;
+
+    border:
+        1px solid #b9def8;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #52718c;
+
+    font-size: 13px;
+
+    line-height: 18px;
+}
+
+.seccion-13 .mensaje i {
+  color: #2196f3;
+
+    font-size: 18px;
+}
+
+@media (max-width: 450px) {
+.seccion-13 .telefono {
+  width: 100%;
+
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+.seccion-13 .contenido {
+  padding:
+            22px 15px;
+}
+
+
+}

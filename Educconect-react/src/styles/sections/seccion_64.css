@@ -1,0 +1,150 @@
+.seccion-64 .telefono {
+  width: 380px;
+    height: 720px;
+    background: #fffef5;
+    border-radius: 45px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-64 .encabezado {
+  height: 85px;
+    min-height: 85px;
+    flex-shrink: 0;
+    background: #dcecff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.seccion-64 .encabezado h1 {
+  color: #202d3d;
+    font-size: 24px;
+}
+
+.seccion-64 .boton-casa {
+  position: absolute;
+    left: 20px;
+    text-decoration: none;
+    color: #202d3d;
+    font-size: 32px;
+}
+
+.seccion-64 .contenido {
+  flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.seccion-64 .perfil-chat {
+  text-align: center;
+    margin-bottom: 20px;
+}
+
+.seccion-64 .icono {
+  font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.seccion-64 .perfil-chat h2 {
+  color: #202d3d;
+    font-size: 21px;
+}
+
+.seccion-64 .perfil-chat p {
+  color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.seccion-64 .chat {
+  display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.seccion-64 .mensaje {
+  max-width: 80%;
+    padding: 12px 15px;
+    border-radius: 17px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-64 .mensaje p {
+  font-size: 14px;
+    line-height: 1.4;
+}
+
+.seccion-64 .mensaje span {
+  display: block;
+    font-size: 10px;
+    margin-top: 5px;
+    color: #777;
+}
+
+.seccion-64 .estudiante {
+  align-self: flex-start;
+    background: #e5e5e5;
+    color: #202d3d;
+    border-bottom-left-radius: 5px;
+}
+
+.seccion-64 .profesor {
+  align-self: flex-end;
+    background: #dcecff;
+    color: #202d3d;
+    border-bottom-right-radius: 5px;
+}
+
+.seccion-64 .entrada {
+  min-height: 70px;
+    background: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+}
+
+.seccion-64 .entrada input {
+  flex: 1;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    padding: 0 15px;
+    outline: none;
+    font-size: 14px;
+}
+
+.seccion-64 .entrada input:focus {
+  border-color: #3b78b8;
+}
+
+.seccion-64 .entrada button {
+  width: 43px;
+    height: 43px;
+    border: none;
+    border-radius: 50%;
+    background: #3b78b8;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.seccion-64 .entrada button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 450px) {
+.seccion-64 .telefono {
+  width: 100%;
+        height: 100vh;
+        border-radius: 0;
+}
+
+
+}

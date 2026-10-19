@@ -1,0 +1,150 @@
+.seccion-4 .app {
+  width: 380px;
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+
+.seccion-4 .header {
+  height: 150px;
+
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #e9f4fb
+    );
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.seccion-4 .back {
+  color: #138ed1;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.seccion-4 .header h1 {
+  font-size: 24px;
+
+    color: #111827;
+}
+
+.seccion-4 .formulario {
+  padding: 25px 22px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-4 .formulario label {
+  margin-top: 12px;
+    margin-bottom: 7px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    color: #394553;
+}
+
+.seccion-4 .roles {
+  display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+.seccion-4 .role {
+  flex: 1;
+
+    height: 42px;
+
+    border: 2px solid #29a9e0;
+
+    border-radius: 7px;
+
+    background: #dff4fb;
+
+    color: #3687b0;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.seccion-4 .role.active {
+  background: #75cbea;
+
+    color: white;
+
+    box-shadow:
+        0 3px 8px rgba(0,150,200,0.3);
+}
+
+.seccion-4 .formulario input {
+  width: 100%;
+
+    height: 46px;
+
+    padding: 10px 13px;
+
+    font-size: 15px;
+
+    border: 2px solid #cfcfcf;
+
+    border-radius: 10px;
+
+    outline: none;
+}
+
+.seccion-4 .formulario input:focus {
+  border-color: #2196f3;
+}
+
+.seccion-4 .registrar {
+  width: 100%;
+
+    height: 50px;
+
+    margin-top: 25px;
+
+    background: #36b6e8;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.seccion-4 .registrar:hover {
+  background: #0b7dda;
+}
+

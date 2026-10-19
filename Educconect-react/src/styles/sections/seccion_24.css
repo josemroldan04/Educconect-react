@@ -1,0 +1,143 @@
+.seccion-24 .telefono {
+  width:390px;
+    height:780px;
+    background:#fff;
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.seccion-24 .header {
+  height:100px;
+    background:#dcecf8;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+}
+
+.seccion-24 .header h1 {
+  font-size:30px;
+    font-weight:bold;
+}
+
+.seccion-24 .boton {
+  width:55px;
+    height:55px;
+
+    background:#59c8ff;
+    color:#0b3475;
+
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:28px;
+
+    transition:.3s;
+}
+
+.seccion-24 .boton:hover {
+  background:#2ea8ff;
+    transform:scale(1.05);
+}
+
+.seccion-24 .contenido {
+  padding:25px;
+    text-align:center;
+}
+
+.seccion-24 .contenido h2 {
+  font-size:34px;
+    margin-bottom:10px;
+}
+
+.seccion-24 .fecha {
+  font-size:18px;
+    margin-bottom:20px;
+    color:#555;
+}
+
+.seccion-24 .imagen {
+  width:100%;
+    height:220px;
+
+    background:#dfeef9;
+
+    border-radius:10px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:20px;
+
+    color:#4b79c7;
+    font-size:110px;
+}
+
+.seccion-24 .descripcion {
+  padding:18px;
+
+    border:2px solid #ccc;
+    border-radius:10px;
+
+    font-size:17px;
+    line-height:1.5;
+
+    text-align:left;
+}
+
+.seccion-24 .botones {
+  display:flex;
+    justify-content:center;
+    gap:40px;
+
+    margin-top:25px;
+}
+
+.seccion-24 .aceptar, .seccion-24 .cancelar {
+  width:70px;
+    height:70px;
+
+    border-radius:10px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+
+    color:white;
+    font-size:35px;
+
+    transition:.3s;
+}
+
+.seccion-24 .aceptar {
+  background:#28a745;
+}
+
+.seccion-24 .cancelar {
+  background:#dc3545;
+}
+
+.seccion-24 .aceptar:hover, .seccion-24 .cancelar:hover {
+  transform:scale(1.08);
+}
+
+@media(max-width:430px) {
+.seccion-24 .telefono {
+  width:100%;
+        height:100vh;
+        border-radius:0;
+}
+
+
+}

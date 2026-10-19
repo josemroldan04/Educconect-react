@@ -1,0 +1,226 @@
+.seccion-82 .telefono {
+  width: 380px;
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-82 header {
+  height: 85px;
+    min-height: 85px;
+
+    flex-shrink: 0;
+
+    background: #dcecff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.seccion-82 header h1 {
+  color: #202d3d;
+    font-size: 21px;
+}
+
+.seccion-82 .btn-regresar {
+  position: absolute;
+    left: 20px;
+
+    text-decoration: none;
+
+    color: #202d3d;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.seccion-82 main {
+  flex: 1;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-82 .perfil {
+  background: white;
+
+    padding: 16px 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    border-bottom: 1px solid #dce3ea;
+
+    flex-shrink: 0;
+}
+
+.seccion-82 .avatar {
+  width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+
+    background: #e8f2ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+}
+
+.seccion-82 .perfil h2 {
+  color: #202d3d;
+
+    font-size: 18px;
+
+    margin-bottom: 4px;
+}
+
+.seccion-82 .perfil p {
+  color: #66788a;
+
+    font-size: 13px;
+}
+
+.seccion-82 .chat {
+  flex: 1;
+    min-height: 0;
+
+    overflow-y: auto;
+
+    padding: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    background: #f5f8fc;
+}
+
+.seccion-82 .mensaje {
+  max-width: 78%;
+
+    padding: 11px 13px;
+
+    border-radius: 15px;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,.08);
+}
+
+.seccion-82 .mensaje p {
+  margin-bottom: 5px;
+}
+
+.seccion-82 .mensaje span {
+  display: block;
+
+    font-size: 10px;
+
+    opacity: .65;
+
+    text-align: right;
+}
+
+.seccion-82 .estudiante {
+  align-self: flex-start;
+
+    background: #dcecff;
+
+    color: #203246;
+
+    border-bottom-left-radius: 4px;
+}
+
+.seccion-82 .profesor {
+  align-self: flex-end;
+
+    background: #3b78b8;
+
+    color: white;
+
+    border-bottom-right-radius: 4px;
+}
+
+.seccion-82 .escribir {
+  background: white;
+
+    border-top: 1px solid #dce3ea;
+
+    padding: 12px;
+
+    display: flex;
+
+    gap: 8px;
+
+    flex-shrink: 0;
+}
+
+.seccion-82 .escribir input {
+  flex: 1;
+
+    border: 1px solid #cbd7e3;
+
+    border-radius: 20px;
+
+    padding: 11px 15px;
+
+    outline: none;
+
+    font-size: 13px;
+}
+
+.seccion-82 .escribir input:focus {
+  border-color: #3b78b8;
+}
+
+.seccion-82 .escribir button {
+  width: 43px;
+    height: 43px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #3b78b8;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.seccion-82 .escribir button:hover {
+  background: #28649e;
+}
+
+@media (max-width: 450px) {
+.seccion-82 .telefono {
+  width: 100%;
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+
+}

@@ -1,0 +1,237 @@
+.seccion-7 .telefono {
+  width: 380px;
+
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.25);
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.seccion-7 .encabezado {
+  width: 100%;
+
+    height: 85px;
+
+    background: #dcecff;
+
+    padding:
+        18px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+}
+
+.seccion-7 .inicio {
+  position: absolute;
+
+    left: 20px;
+
+    width: 42px;
+
+    height: 42px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 21px;
+
+    border-radius: 50%;
+
+    transition: 0.2s;
+}
+
+.seccion-7 .inicio:hover {
+  background:
+        rgba(
+            255,
+            255,
+            255,
+            0.7
+        );
+
+    transform:
+        scale(1.05);
+}
+
+.seccion-7 h1 {
+  font-size: 28px;
+
+    color: #202d3d;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.seccion-7 .lista {
+  flex: 1;
+
+    padding:
+        25px 20px;
+
+    overflow-y: auto;
+}
+
+.seccion-7 .lista::-webkit-scrollbar {
+  width: 0;
+}
+
+.seccion-7 .notificacion {
+  background: #eef3f8;
+
+    padding: 16px;
+
+    margin-bottom: 18px;
+
+    border-radius: 12px;
+
+    border-left:
+        5px solid #55b8ff;
+
+    box-shadow:
+        0 3px 8px
+        rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+
+    transition:
+        background 0.3s,
+        opacity 0.3s;
+}
+
+.seccion-7 .notificacion.leida {
+  background: #d8ffd8;
+
+    border-left-color:
+        #55b866;
+
+    opacity: 0.85;
+}
+
+.seccion-7 .notificacion h3 {
+  color: #2196f3;
+
+    font-size: 17px;
+
+    margin-bottom: 8px;
+}
+
+.seccion-7 .notificacion.leida h3 {
+  color: #3c9149;
+}
+
+.seccion-7 .notificacion p {
+  color: #303942;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    margin-bottom: 14px;
+}
+
+.seccion-7 .botones {
+  display: flex;
+
+    gap: 8px;
+}
+
+.seccion-7 .botones button {
+  flex: 1;
+
+    min-height: 38px;
+
+    padding: 8px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #55b8ff;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        transform 0.2s;
+}
+
+.seccion-7 .botones button:hover {
+  background: #2196f3;
+
+    transform:
+        translateY(-1px);
+}
+
+.seccion-7 .botones button:active {
+  transform:
+        scale(0.97);
+}
+
+.seccion-7 .botones .eliminar {
+  background: #e56b6f;
+}
+
+.seccion-7 .botones .eliminar:hover {
+  background: #d94b50;
+}
+
+.seccion-7 .sin-notificaciones {
+  display: none;
+
+    text-align: center;
+
+    color: #697582;
+
+    font-size: 16px;
+
+    padding:
+        50px 20px;
+}
+
+@media (max-width: 450px) {
+.seccion-7 .telefono {
+  width: 100%;
+
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+.seccion-7 .lista {
+  padding:
+            20px 15px;
+}
+
+
+}

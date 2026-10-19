@@ -1,0 +1,128 @@
+.seccion-44 .telefono {
+  width:390px;
+    height:780px;
+    background:#fff;
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.seccion-44 .header {
+  height:100px;
+    background:#dcecf8;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.seccion-44 .header h1 {
+  font-size:27px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.seccion-44 .boton {
+  width:55px;
+    height:55px;
+    background:#59c8ff;
+    color:#0b3475;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+    font-size:28px;
+
+    transition:.3s;
+}
+
+.seccion-44 .boton:hover {
+  background:#2ea8ff;
+    transform:scale(1.05);
+}
+
+.seccion-44 .contenido {
+  padding:25px;
+}
+
+.seccion-44 .contenido h2 {
+  font-size:32px;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.seccion-44 .calificaciones {
+  display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.seccion-44 .calificacion {
+  display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:17px 15px;
+
+    border:2px solid #ddd;
+    border-radius:10px;
+
+    font-size:17px;
+}
+
+.seccion-44 .calificacion span {
+  max-width:240px;
+    font-weight:bold;
+}
+
+.seccion-44 .calificacion strong {
+  width:50px;
+    height:50px;
+
+    background:#bfeeff;
+    color:#0b3d91;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:19px;
+}
+
+.seccion-44 .promedio {
+  margin-top:30px;
+
+    padding:20px;
+
+    background:#dcecf8;
+
+    border:3px solid #59c8ff;
+    border-radius:15px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    font-size:22px;
+    font-weight:bold;
+}
+
+.seccion-44 .promedio strong {
+  font-size:30px;
+    color:#0b3d91;
+}
+
+@media(max-width:430px) {
+.seccion-44 .telefono {
+  width:100%;
+        height:100vh;
+        border-radius:0;
+}
+
+
+}

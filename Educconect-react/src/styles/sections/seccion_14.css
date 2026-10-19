@@ -1,0 +1,252 @@
+.seccion-14 .telefono {
+  width: 380px;
+
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(
+            0,
+            0,
+            0,
+            0.25
+        );
+}
+
+.seccion-14 .header {
+  width: 100%;
+
+    height: 85px;
+
+    background: #dcecff;
+
+    padding:
+        18px 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.seccion-14 .header h1 {
+  flex: 1;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #202d3d;
+
+    font-weight: bold;
+}
+
+.seccion-14 .btn-header {
+  width: 42px;
+
+    height: 42px;
+
+    flex-shrink: 0;
+
+    background: #55b8ff;
+
+    color: #0b3475;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.seccion-14 .btn-header:hover {
+  background: #2196f3;
+
+    color: white;
+
+    transform: scale(1.05);
+}
+
+.seccion-14 .contenido {
+  padding:
+        25px 20px;
+
+    text-align: center;
+}
+
+.seccion-14 .contenido h2 {
+  font-size: 30px;
+
+    color: #202d3d;
+
+    margin-bottom: 12px;
+}
+
+.seccion-14 .fecha {
+  display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin-bottom: 18px;
+
+    font-size: 16px;
+}
+
+.seccion-14 .fecha strong {
+  color: #202d3d;
+}
+
+.seccion-14 .fecha span {
+  color: #e53935;
+
+    font-weight: bold;
+}
+
+.seccion-14 .imagen {
+  width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    display: block;
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            0,
+            0,
+            0,
+            0.15
+        );
+}
+
+.seccion-14 .descripcion {
+  margin-top: 18px;
+
+    padding: 15px;
+
+    background: white;
+
+    border:
+        2px solid #d8d8d8;
+
+    border-radius: 10px;
+
+    text-align: left;
+}
+
+.seccion-14 .descripcion h3 {
+  font-size: 19px;
+
+    color: #202d3d;
+
+    margin-bottom: 8px;
+}
+
+.seccion-14 .descripcion p {
+  font-size: 15px;
+
+    line-height: 21px;
+
+    color: #555;
+}
+
+.seccion-14 .botones {
+  display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 35px;
+
+    margin-top: 25px;
+}
+
+.seccion-14 .aceptar, .seccion-14 .cancelar {
+  width: 65px;
+
+    height: 65px;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 38px;
+
+    font-weight: bold;
+
+    color: white;
+
+    transition:
+        transform 0.2s,
+        filter 0.2s;
+}
+
+.seccion-14 .aceptar {
+  background: #28a745;
+}
+
+.seccion-14 .cancelar {
+  background: #dc3545;
+}
+
+.seccion-14 .aceptar:hover, .seccion-14 .cancelar:hover {
+  transform: scale(1.08);
+
+    filter: brightness(0.95);
+}
+
+.seccion-14 .aceptar:active, .seccion-14 .cancelar:active {
+  transform: scale(0.95);
+}
+
+.seccion-14 .ayuda {
+  margin-top: 12px;
+
+    font-size: 13px;
+
+    color: #777;
+}
+
+@media (max-width: 450px) {
+.seccion-14 .telefono {
+  width: 100%;
+
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+
+}

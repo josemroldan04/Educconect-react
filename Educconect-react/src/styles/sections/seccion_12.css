@@ -1,0 +1,229 @@
+.seccion-12 .telefono {
+  width: 380px;
+
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(
+            0,
+            0,
+            0,
+            0.25
+        );
+}
+
+.seccion-12 .header {
+  height: 85px;
+
+    background: #dcecff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 15px;
+}
+
+.seccion-12 .header h1 {
+  flex: 1;
+
+    text-align: center;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    color: #202d3d;
+}
+
+.seccion-12 .boton {
+  width: 42px;
+
+    height: 42px;
+
+    flex-shrink: 0;
+
+    background: #55b8ff;
+
+    color: #0b3475;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition: 0.2s;
+}
+
+.seccion-12 .boton:hover {
+  background: #2196f3;
+
+    color: white;
+
+    transform: scale(1.05);
+}
+
+.seccion-12 .contenido {
+  padding: 25px 20px;
+}
+
+.seccion-12 .contenido h2 {
+  font-size: 34px;
+
+    margin-bottom: 25px;
+
+    color: #202d3d;
+}
+
+.seccion-12 .lista {
+  display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.seccion-12 .tarea {
+  min-height: 70px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 12px 15px;
+
+    background: white;
+
+    border: 2px solid #d8d8d8;
+
+    border-radius: 10px;
+
+    box-shadow:
+        2px 3px 5px
+        rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+}
+
+.seccion-12 .tarea span {
+  font-size: 18px;
+
+    font-weight: bold;
+
+    color: #202d3d;
+}
+
+.seccion-12 .estado {
+  width: 42px;
+
+    height: 42px;
+
+    flex-shrink: 0;
+
+    border: none;
+
+    background: transparent;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.seccion-12 .estado:hover {
+  transform: scale(1.15);
+}
+
+.seccion-12 .verde {
+  color: #37b24d;
+}
+
+.seccion-12 .rojo {
+  color: #d62828;
+}
+
+.seccion-12 .pendiente {
+  color: #777;
+}
+
+.seccion-12 .agregar {
+  width: 75px;
+
+    height: 75px;
+
+    margin: 30px auto 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #8be9ff;
+
+    border: 3px solid #59c8ff;
+
+    border-radius: 12px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 42px;
+
+    transition: 0.3s;
+}
+
+.seccion-12 .agregar:hover {
+  background: #55cfff;
+
+    transform: scale(1.05);
+}
+
+.seccion-12 .agregar:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 450px) {
+.seccion-12 .telefono {
+  width: 100%;
+
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+
+}

@@ -1,0 +1,173 @@
+.seccion-22 .telefono {
+  width:390px;
+    height:780px;
+    background:#fff;
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.seccion-22 .header {
+  height:95px;
+    background:#dcecf8;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px;
+}
+
+.seccion-22 .header h1 {
+  font-size:28px;
+    color:#000;
+    font-weight:bold;
+}
+
+.seccion-22 .boton {
+  width:55px;
+    height:55px;
+
+    background:#52bfff;
+    border-radius:8px;
+
+    color:#0b3475;
+    text-decoration:none;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    transition:.3s;
+}
+
+.seccion-22 .boton:hover {
+  background:#2ea8ff;
+    transform:scale(1.05);
+}
+
+.seccion-22 .chat {
+  flex:1;
+
+    padding:20px;
+
+    overflow-y:auto;
+
+    background:#fff;
+}
+
+.seccion-22 .mensaje {
+  max-width:75%;
+
+    padding:12px 16px;
+
+    border-radius:18px;
+
+    margin-bottom:18px;
+
+    font-size:16px;
+
+    line-height:1.4;
+}
+
+.seccion-22 .enviado {
+  background:#6d8fca;
+    color:white;
+
+    margin-left:auto;
+
+    border-bottom-right-radius:5px;
+}
+
+.seccion-22 .recibido {
+  background:#e9eef5;
+    color:#333;
+
+    margin-right:auto;
+
+    border-bottom-left-radius:5px;
+}
+
+.seccion-22 .footer {
+  height:75px;
+
+    border-top:1px solid #ddd;
+
+    display:flex;
+    align-items:center;
+
+    gap:8px;
+
+    padding:10px;
+}
+
+.seccion-22 .icono {
+  width:40px;
+    height:40px;
+
+    border:none;
+
+    background:transparent;
+
+    color:#5d7eb8;
+
+    font-size:22px;
+
+    cursor:pointer;
+}
+
+.seccion-22 .footer input {
+  flex:1;
+
+    height:42px;
+
+    border:2px solid #8be9ff;
+
+    border-radius:8px;
+
+    padding:0 10px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.seccion-22 .footer input:focus {
+  border-color:#39cfff;
+}
+
+.seccion-22 .enviar {
+  width:42px;
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#8be9ff;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+}
+
+.seccion-22 .enviar:hover {
+  background:#39cfff;
+}
+
+@media(max-width:430px) {
+.seccion-22 .telefono {
+  width:100%;
+        height:100vh;
+        border-radius:0;
+}
+
+
+}

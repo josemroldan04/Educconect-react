@@ -1,0 +1,175 @@
+.seccion-1 .app {
+  width: 380px;
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 30px;
+
+    padding: 70px 25px 35px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.seccion-1 h1 {
+  font-size: 25px;
+    color: #202d3d;
+
+    text-align: center;
+
+    margin-bottom: 90px;
+}
+
+.seccion-1 .logo {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 105px;
+}
+
+.seccion-1 .logo-lines {
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seccion-1 .line {
+  width: 65px;
+    height: 18px;
+
+    border-radius: 20px;
+}
+
+.seccion-1 .blue {
+  background: #36a9e1;
+}
+
+.seccion-1 .pink {
+  background: linear-gradient(
+        to right,
+        #d98bc7 50%,
+        #df2855 50%
+    );
+}
+
+.seccion-1 .yellow {
+  background: linear-gradient(
+        to right,
+        #e6930b 50%,
+        #f4c400 50%
+    );
+}
+
+.seccion-1 .logo-c {
+  width: 85px;
+    height: 85px;
+
+    border: 22px solid #8ac400;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.seccion-1 .logo-c::after {
+  content: "";
+
+    position: absolute;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: #f1c400;
+
+    bottom: -18px;
+    right: -15px;
+
+    z-index: 1;
+}
+
+.seccion-1 .logo-c::before {
+  content: "";
+
+    position: absolute;
+
+    width: 18px;
+    height: 18px;
+
+    background: #168bc4;
+
+    border-radius: 50%;
+
+    bottom: -13px;
+    left: -17px;
+
+    z-index: 2;
+}
+
+.seccion-1 .buttons {
+  width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.seccion-1 .btn {
+  width: 100%;
+    height: 60px;
+
+    background: linear-gradient(
+        135deg,
+        #55c9ee,
+        #8ed6ed
+    );
+
+    color: white;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    box-shadow:
+        0 3px 6px rgba(0, 150, 200, 0.3);
+
+    transition: 0.3s;
+}
+
+.seccion-1 .btn:hover {
+  transform: scale(1.02);
+
+    background: linear-gradient(
+        135deg,
+        #32b8e5,
+        #70cce7
+    );
+}
+
+@media (max-width: 450px) {
+.seccion-1 .app {
+  width: 100%;
+        max-width: 380px;
+        height: 720px;
+}
+
+
+}

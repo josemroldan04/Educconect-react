@@ -1,0 +1,191 @@
+.seccion-110 .telefono {
+  width: 380px;
+    height: 720px;
+
+    background: #fffef5;
+
+    border-radius: 45px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-110 .encabezado {
+  min-height: 85px;
+    flex-shrink: 0;
+
+    background: #dcecff;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    padding: 0 20px;
+}
+
+.seccion-110 .encabezado h1 {
+  width: 100%;
+
+    text-align: center;
+
+    color: #202d3d;
+
+    font-size: 24px;
+}
+
+.seccion-110 .boton-casa {
+  position: absolute;
+    left: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    color: #202d3d;
+
+    font-size: 27px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .15);
+
+    transition: .2s;
+}
+
+.seccion-110 .boton-casa:hover {
+  transform: scale(1.08);
+}
+
+.seccion-110 .contenido {
+  flex: 1;
+    min-height: 0;
+
+    overflow-y: auto;
+
+    padding: 25px 20px;
+}
+
+.seccion-110 .perfil-estudiante {
+  text-align: center;
+
+    background: #f1f7ff;
+
+    border-radius: 20px;
+
+    padding: 25px 15px;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .08);
+}
+
+.seccion-110 .icono-estudiante {
+  font-size: 60px;
+
+    margin-bottom: 10px;
+}
+
+.seccion-110 .perfil-estudiante h2 {
+  color: #202d3d;
+
+    font-size: 23px;
+
+    margin-bottom: 15px;
+}
+
+.seccion-110 .perfil-estudiante p {
+  color: #555;
+
+    font-size: 16px;
+
+    margin: 7px 0;
+}
+
+.seccion-110 .contenido h3 {
+  color: #202d3d;
+
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+.seccion-110 .opcion {
+  display: flex;
+    align-items: center;
+    gap: 15px;
+
+    text-decoration: none;
+
+    background: #ffffff;
+
+    border: 1px solid #d9e6f5;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    color: #202d3d;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .08);
+
+    transition: .2s;
+}
+
+.seccion-110 .opcion:hover {
+  transform: translateY(-2px);
+
+    background: #f4f9ff;
+}
+
+.seccion-110 .emoji {
+  font-size: 30px;
+}
+
+.seccion-110 .opcion div {
+  flex: 1;
+}
+
+.seccion-110 .opcion strong {
+  display: block;
+
+    font-size: 17px;
+
+    margin-bottom: 5px;
+}
+
+.seccion-110 .opcion p {
+  color: #666;
+
+    font-size: 14px;
+}
+
+.seccion-110 .flecha {
+  font-size: 30px;
+
+    color: #3b78b8;
+}
+
+@media (max-width: 450px) {
+.seccion-110 .telefono {
+  width: 100%;
+        height: 100vh;
+
+        border-radius: 0;
+}
+
+
+}
